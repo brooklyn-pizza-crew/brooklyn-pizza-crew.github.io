@@ -38,6 +38,10 @@ padding:0;
 .vimeo{
   margin:0 auto;
 }
+.poly-design{
+    margin-bottom: -2px;
+}
+
 .poly-design svg {
   position: relative;
   display:block;
