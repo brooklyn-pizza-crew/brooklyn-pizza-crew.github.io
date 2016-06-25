@@ -1,291 +1,308 @@
-body{
-  font-family: 'Didot',Helmet,Freesans,sans-serif;
-  background-color:rgb(162, 56, 68);
+/*
+Tutorial Name: Modernize Your Site: Building a YouTube Video Background 
+Author: Samuel Dalusung
+*/
+
+
+/* GENERAL STYLES
+================================================== */
+html {
+    height:100%
 }
 
-.header{
-margin:0 auto;
-padding:0;
-}
-.container{
-  text-align: center;
-}
-.header h2{
-  color: rgb(252, 252, 252);  
-  line-height: 1em;
-  letter-spacing: 1.5px;
-}
-
-.subscribe{
-  margin-top: -1px;
-}
-.container a{
-  float: none;
-  display: inline-block;
-  font-size: 2em;
-  line-height: 1em;
-  letter-spacing: 5px;
-/*  font-family: GibsonBold;*/
-  text-decoration: none;
-  text-transform: uppercase;
-  color: rgb(252, 252, 252);  
-  margin: 0 auto;
-}
-.video{
-  text-align: center;
-  margin-bottom: 2rem;
-}
-.vimeo{
-  margin:0 auto;
-}
-.poly-design{
-    margin-bottom: -2px;
-}
-
-.poly-design svg {
-  position: relative;
-  display:block;
-}
-.poly-black{
-  z-index: 1;
-  margin-bottom: -11.2%;
-}
-
-#mc_embed_signup{
-  background-color: #fff;
-  padding-top: 2.4rem;
-  padding-bottom: 2.4rem;
-
-}
-input[type="text"], input[type="email"]{
-  width: 40%;
-  max-width: 100%;
-  height: 1em;
-  background-color:#fff;
-  border: none;
-  border-bottom: 2px solid rgb(162, 56, 68);
-  padding: 0.7rem;
-  margin: 0 0 2em 0;
-  color: #3c3c3c;
-  font-size: 1.2rem;
-  box-shadow: 0px 17px 50px -15px rgba(0,0,0,0.2);
-  -webkit-appearance: background-color:#fff;
-}
-input[type="text"]:focus{
-outline: none !important;
-border-bottom: 2px solid rgb(162, 56, 68);
-transition: all ease-in-out 400ms;
-}
-input[type="email"]:focus{
-outline: none !important;
-border-bottom: 2px solid rgb(162, 56, 68);
-transition: all ease-in-out 400ms;
-}
-input[type="submit"], .button{
-outline: none;
-background-color: #fff;
-border: 2px solid rgb(162, 56, 68);
-text-align: center;
-font-size: 1em;
-text-decoration: none;
-color: rgb(162, 56, 68);
-padding: 1em 2em;
-box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
-cursor: pointer;
-transition: all ease-in-out 300ms;
-  
-
-}
-.button:hover{
-    color:rgb(162, 56, 68);
-    border: 2px solid rgb(162, 56, 68);
-    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
-    transform: translate(0px, -7px) scale(1.1);
-}
-.subscription{
-  margin: 0 auto; 
-}
-
-.sponser{
-  background-color: #fff;
-  padding-top: 1rem;
-  width: 100%;
-  padding-bottom: 3rem;
-}
-#img_cont {
-  display: table;
-  width: 90%;
-  margin: 20px auto;
-}
-
-#img_cont {
-  display: table-cell;
-  text-align: center;
-  width: 16%;
-}
-
-#img_cont img {
-  margin:0.5rem;
-  width: 100%;
-  max-width: 150px;
-}
-
-footer{
-  width:100%;
+body {
+    font:15px/23px 'Arial',sans-serif;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:100%;
 }
 
 
-@import url(http://weloveiconfonts.com/api/?family=fontawesome);
- 
-.fa {
- width: 60px;
- display: block;
- text-align: center;
- color:#fff;
- font:normal 45px 'FontAwesome';
- line-height:60px;
- text-rendering: auto;
- -webkit-font-smoothing: antialiased;
-}
-.fa-angle-double-down:before {content: "\f103";}
- 
-.bounce {
-padding-top:1rem;
- /*border: 2px solid #990000;*/
- -webkit-border-radius:50%;
- -moz-border-radius:50%;
- -ms-border-radius:50%;
- /*border-radius:50%;*/
- animation: bounce 2s infinite;
- -webkit-animation: bounce 2s infinite;
- -moz-animation: bounce 2s infinite;
- -o-animation: bounce 2s infinite;
-}
- 
-@-webkit-keyframes bounce {
- 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
- 40% {-webkit-transform: translateY(-30px);}
- 60% {-webkit-transform: translateY(-15px);}
-}
- 
-@-moz-keyframes bounce {
- 0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
- 40% {-moz-transform: translateY(-30px);}
- 60% {-moz-transform: translateY(-15px);}
-}
- 
-@-o-keyframes bounce {
- 0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
- 40% {-o-transform: translateY(-30px);}
- 60% {-o-transform: translateY(-15px);}
-}
-@keyframes bounce {
- 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
- 40% {transform: translateY(-30px);}
- 60% {transform: translateY(-15px);}
+p {
+    font-size:20px;
+    line-height:140%;
+    text-align:center
 }
 
-#social-media-links {
-  background-color: white;
-  font-size: 12vw;
-  margin-top: -2px;
-  /*margin: 0 auto;*/
-  /*text-align: center; */
+a:hover {
+	opacity: .25;
 }
 
-.fa-instagram {
-  color: rgb(162, 56, 68);
-  margin-right: 8vw;
-  display: inline-block;
-  vertical-align: bottom;
-  line-height: 50px;
-  text-align: center;
-  position: relative;
-  left: 27vw;
-}
-
-.fa-facebook-official {
-  color: rgb(162, 56, 68);
-  margin-left: 8vw;
-  display: inline-block;
-  vertical-align: bottom;
-  line-height: 50px;
-  position: relative;
-  left: 33vw;
-}
-
-.centerWrapper:before {
-    content:'';
-    height: 100%;
-    display: inline-block;
-}
-
-.center {
+ul li {
     display:inline-block;
+    list-style:none;
+    padding-right: 10px;
 }
 
-/*RESPONSIVE*/
-
-@media only screen and (max-width: 488px){
-.header h1{
-  font-size: 1rem;
-  color: rgb(252, 252, 252);  
-  line-height: 1em;
-  margin: 2rem 10px;
-  letter-spacing: 1.5px;
-}
-.header h2{
-  color: rgb(252, 252, 252);  
-  line-height: 1em;
-  font-size: 1rem;
-  margin-top: 1.3rem;
-  letter-spacing: 1.5px;
-}
-.video{
-  text-align: center;
-  margin-bottom: 2rem;
-}
-.video iframe{
-  width:100%;
+.wrapper {
+    z-index:600;
+    position:relative
 }
 
-input[type="text"], input[type="email"]{
-  width: 70%;
-  max-width: 100%;
-  height: 1em;
-  background-color:#fff;
-  border: none;
-  border-bottom: 2px solid rgb(162, 56, 68);
-  padding: 0.7rem;
-  margin: 0 0 2em 0;
-  color: #3c3c3c;
-  font-size: 1.2rem;
-  box-shadow: 0px 17px 50px -15px rgba(0,0,0,0.2);
-}
-input[type="text"]:focus{
-outline: none !important;
-border-bottom: 2px solid rgb(162, 56, 68);
-transition: all ease-in-out 400ms;
-}
-input[type="email"]:focus{
-outline: none !important;
-border-bottom: 2px solid rgb(162, 56, 68);
-transition: all ease-in-out 400ms;
-}
-input[type="submit"], .button{
-outline: none;
-background-color: #fff;
-border: 2px solid rgb(162, 56, 68);
-text-align: center;
-font-size: 1em;
-text-decoration: none;
-color: rgb(162, 56, 68);
-padding: 1em 2em;
-box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
-cursor: pointer;
-transition: all ease-in-out 300ms;
+.pattern {
+    background-image:url(../images/pattern.png);
+    background-repeat: repeat;
+    background-attachment:scroll;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0
 }
 
+.divider {
+    background-image:url(../images/divider.png);
+    display:block;
+    width:300px;
+    height:35px;
+    margin:10px auto
+}
+
+.socialheader {
+	top: 0;
+	right: 0;
+}
+
+#colorize {
+    color:#f1c40f;
+    font-family:'Arial',sans-serif;
+    font-size:40px
 }
 
 
+
+/* BIG VIDEO BACKGROUND
+================================================== */
+.big-background {
+    z-index:550;
+    text-align:center;
+    height:100%;
+    min-height:100%;
+    position:relative;
+    overflow:hidden ;
+}
+
+.big-background .big-background-container {
+    width:830px;
+    max-width:100%;
+    display:inline-block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%)
+}
+
+.big-background-title {
+    font-family:'Arial',sans-serif;
+    font-size:78px;
+    color:#fff;
+    font-weight:300;
+    text-transform:uppercase;
+    text-align:center;
+    margin-bottom:22px;
+    padding-top:20px;
+    display:inline-block;
+    background-attachment:scroll;
+    background-repeat:repeat-x;
+    background-position:top center
+}
+
+a.big-background-btn {
+    font-family:'Arial',sans-serif;
+    font-size:13px;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#fff;
+    background:transparent;
+    border:2px solid #fff;
+    padding:10px 14px;
+	margin-left: 1%;
+	margin-left: 1%;
+    cursor:pointer;
+    letter-spacing:2px;
+    text-align:center;
+    display:inline-block;
+    -webkit-transition:.4s background ease;
+    -moz-transition:.4s background ease;
+    -o-transition:.4s background ease;
+    transition:.4s background ease;
+}
+
+a.big-background-btn2 {
+    font-family:'Arial',sans-serif;
+    font-size:13px;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#fff;
+    background:transparent;
+    border:2px solid #fff;
+    padding:10px 14px;
+    cursor:pointer;
+    letter-spacing:2px;
+    text-align:center;
+    display:inline-block;
+    -webkit-transition:.4s background ease;
+    -moz-transition:.4s background ease;
+    -o-transition:.4s background ease;
+    transition:.4s background ease;
+}
+
+.big-background-btn:hover {
+    color:#fff;
+    background:rgba(255,255,255,0.20)
+}
+
+.big-background-default-image {
+    background:url(../images/bpcpizzabackground.jpg);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    width:100%;
+    height:100%;
+    z-index:0;
+    backface-visibility:hidden
+}
+
+
+
+/* ABOUT SECTION
+================================================== */
+.about-section {
+    font-family:'Arial',sans-serif;
+    color:#7f8c8d;
+    background:#fff;
+    padding:20px 20px
+}
+
+.about-section-container {
+    text-align:center;
+    padding-bottom:50px
+}
+
+.about-section-title {
+    font-family:'Arial',sans-serif;
+    font-size:50px;
+    background:#fff;
+    color:#222222;
+    padding:0 35px;
+    margin-bottom:22px;
+    background-attachment:scroll;
+    background-repeat:repeat-x;
+    background-position:center center;
+    text-transform:uppercase
+}
+
+a.sponsors {
+	padding-right: 1%;
+}
+
+a.about-section-btn {
+    font-family:'Arial',sans-serif;
+    font-size:13px;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#34495e;
+    background:transparent;
+    border:2px solid #34495e;
+    padding:10px 14px;
+    cursor:pointer;
+    letter-spacing:2px;
+    text-align:center;
+    display:inline-block;
+    -webkit-transition:.4s background ease;
+    -moz-transition:.4s background ease;
+    -o-transition:.4s background ease;
+    transition:.4s background ease;
+}
+
+.about-section-btn:hover {
+    color:#fff;
+    background: #34495e;
+}
+
+
+
+/* SMALL VIDEO BACKGROUND 
+================================================== */
+.small-background-section {
+    font-family:'Arial',sans-serif;
+    padding:100px 0;
+    position:relative;
+    width:100%;
+    overflow:hidden
+}
+
+.small-background-container {
+    position:relative;
+    text-align:center
+}
+
+.small-background-title {
+    font-size:40px;
+    color:#FFFFFF;
+    font-weight:300;
+    z-index:10;
+    display:inline-block;
+    text-transform:uppercase;
+    margin-bottom:20px;
+    margin-top: 20px;
+    position:relative;
+    background-attachment:scroll;
+    background-repeat:repeat-x;
+    background-position:top center
+}
+
+
+
+/* SOCIALS
+================================================== */
+.socials a {
+    color:#fff
+}
+
+.socials a:hover {
+    color:#bdc3c7
+}
+
+
+
+
+/* MEDIA QUERIES
+================================================== */
+
+@media screen and (max-width: 768px) {
+.about-section-title {
+    line-height:1
+}
+}
+
+@media screen and (max-width: 480px) {
+.big-background-title {
+    font-size:58px
+}
+
+.small-background-title {
+    line-height:1
+}
+
+/*.player{ display: none;}  -> If you want to remove the video bg on a specific viewport w/o plugin*/
+}
+
+@media screen and (max-width: 360px) {
+.big-background-title,#colorize {
+    line-height:1
+}
+}
+
+@media screen and (max-width: 320px) {
+.small-background-title {
+    font-size:30px
+}
+}
