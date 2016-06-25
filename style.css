@@ -43,7 +43,7 @@ ul li {
 }
 
 .pattern {
-    background-image:url(../images/pattern.png);
+    background-image:url(../img/pattern.png);
     background-repeat: repeat;
     background-attachment:scroll;
     width:100%;
@@ -54,7 +54,7 @@ ul li {
 }
 
 .divider {
-    background-image:url(../images/divider.png);
+    background-image:url(../img/divider.png);
     display:block;
     width:300px;
     height:35px;
