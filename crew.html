@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Brooklyn Pizza Crew</title>
+    <meta name="author" content="Sam Norton">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="normalize.css" media="all">
+    <link rel="stylesheet" href="style.css" media="all">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,700,600,800,900' rel='stylesheet' type="text/css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/device.min.js"></script> <!--OPTIONAL JQUERY PLUGIN-->
+    <script src="js/jquery.mb.YTPlayer.js"></script>
+    <script src="js/custom.js"></script>
+ <link href="http://cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+</head>
+<body>
+    <section class="big-background">
+        <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=R-B1JHKcgdQ',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1, loop:true}"></a>
+        <div class="pattern"></div>
+            <div class="big-background-container" align="center">
+                    <a href="index.html"><img src="img/BPCTypeLogo.png"></a>
+                    <br>
+                    <br>
+                    <a href="index.html" class="big-background-btn">HOME</a><a href="watch.html" class="big-background-btn">WATCH NOW</a>
+                    <br>
+                    <br>
+                    <a href="http://facebook.com/brooklynpizzacrew" ><img src="img/facebook.png" ></a><a class="sponsors" href="http://twitter.com/bkcrewpizza" ><img src="img/twitter.png" ></a><a class="sponsors" href="https://www.youtube.com/channel/UCj8gt3AjF-3IJp51nvEUPRw" ><img src="img/youtube.png" ></a><a class="sponsors" href="https://www.instagram.com/brooklynpizzacrew" ><img src="img/instagram.png" ></a>
+            </div>                                                    
+    </section>
+    <div class="wrapper">
+    <section class="about-section">
+                <div class="about-section-container" align="center">
+                    <h2 class="about-section-title">THE CREW</h2>
+                    <div class="crewslide" style="width:100%"><img src="img/ninoconiglioprofpic.jpg" height="300px"><p>NINO CANIGLIO<br>Owner of Williamsburg Pizza. 9 Time US and World Champion Pizza Maker. 2016 World Champion Pizza Maker of the Year. 2015 Caputo Cup Champion. </p></div>
+                    <div class="crewslide" style="width:100%"><img src="img/giulioadrianiprof.jpg" height="300px"><p>GIULIO ADRIANI<br>Owner of Forcella. 4 Time International Culinary Champion. 2010 Worlds Best Pizza – America’s Plate. 2010 World Pizza Championships. 2009 International Pizza World Championship. 2008 World Pizza Cup.</p></div> 
+                    <div class="crewslide" style="width:100%"><img src="img/micheledamelioprof.jpg" height="300px"><p>MICHELE D'AMELIO<br>2014 Campionati Mondialli - 2nd Place STG. 2013 International Pizza Challenge - 1st Place Neopolitan STG. 2012 Citta di Napoli - 2nd Place.</p></div>
+                    <div class="crewslide" style="width:100%"><img src="img/scottvolpeprof.jpg" height="300px"><p>SCOTT VOLPE<br>2016 World Pizza Games - 2nd Place. 2016 NAPICS US Pizza Team Competition - 1st Place. 2015 NAPICS US Pizza Team Competition - 1st Place.</p></div> 
+                    <div class="crewslide" style="width:100%"><img src="img/jayschuurmanprof.jpg" height="300px"><p>JAY SCHUURMAN<br>Pizza Olympics 2011 Gold Medal “Squadra Acrobatica”. World Pizza Games 2007 - 3rd Place.</p></div>
+                    <div class="crewslide" style="width:100%"><img src="img/johnarenaprof.jpg" height="300px"><p>JOHN ARENA<br>Co-Founder of Metro Pizza.</p></div> 
+                    <div class="crewslide" style="width:100%"><img src="img/dereksanchezprof.jpg" height="300px"><p>DEREK SANCHEZ<br>Owner of Mia Marco's Pizza. </p></div>
+                    <a class="leftbutton" onclick="plusDivs(-1)" style="align-content:center"><img src="img/basilleft.jpg"></a>
+<a class="rightbutton" onclick="plusDivs(+1)" style="align-content:center"><img src="img/basilright.jpg"></a>
+ <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("crewslide");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+                </div>
+    </section>
+     <section class="small-background-section">
+     <div class="pattern"></div>
+                    <div class="small-background-container">
+                        <h2 class="small-background-title"><span>Subscribe to Our Newsletter</span></h2>
+                        <div id="mc_embed_signup">
+<form action="http://brooklynpizzacrew.us13.list-manage.com/subscribe/post?u=bff5ab4f16bdcc0523f471118&amp;id=20a4189bfc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">	
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bff5ab4f16bdcc0523f471118_20a4189bfc" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+</div>
+</section>
+</div>
+</body>
+</html>
